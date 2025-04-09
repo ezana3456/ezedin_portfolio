@@ -41,7 +41,7 @@ const Hero = () => {
               className="text-2xl md:text-3xl font-semibold mb-6 text-gray-700 dark:text-gray-300"
               variants={fadeIn}
             >
-              Full-Stack Developer
+              Full-Stack Developer,App  Developer
             </motion.h2>
             
             <motion.p 
