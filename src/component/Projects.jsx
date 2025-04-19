@@ -40,8 +40,8 @@ const Projects = () => {
         { name: "Bootstrap", icon: <SiBootstrap className="text-purple-500" /> }
       ],
       image: "https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=400&q=80",
-      github: "#",
-      demo: "#"
+      github: "https://github.com/ezana3456/weatherDasboard",
+      demo: "https://ezana3456.github.io/weatherDasboard/"
     }
   ];
 
