@@ -4,19 +4,20 @@ import { SiReact, SiNodedotjs, SiMongodb, SiVuedotjs, SiFirebase, SiTailwindcss,
 
 const Projects = () => {
   const projects = [
-    {
-      id: 1,
-      title: "E-commerce Website",
-      description: "A fully responsive e-commerce platform with product listings, cart functionality, and secure checkout process.",
-      tags: [
-        { name: "React", icon: <SiReact className="text-blue-400" /> },
-        { name: "Node.js", icon: <SiNodedotjs className="text-green-500" /> },
-        { name: "MongoDB", icon: <SiMongodb className="text-green-600" /> }
-      ],
-      image: "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=400&q=80",
-      github: "#",
-      demo: "#"
-    },
+{
+  id: 1,
+  title: "merchDeliver Platform",
+  description: "A platform connecting merchandise delivery service providers with customers, offering seamless delivery solutions and real-time tracking.",
+  tags: [
+    { name: "React", icon: <SiReact className="text-blue-400" /> },
+    { name: "Node.js", icon: <SiNodedotjs className="text-green-500" /> },
+    { name: "MongoDB", icon: <SiMongodb className="text-green-600" /> }
+  ],
+  image: "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=400&q=80",
+  github: "https://github.com/Haileamlak-bekele/MerchDelivery1",
+  demo: "#"
+}
+,
     {
       id: 2,
       title: "Task Management App",
@@ -40,8 +41,8 @@ const Projects = () => {
         { name: "Bootstrap", icon: <SiBootstrap className="text-purple-500" /> }
       ],
       image: "https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=400&q=80",
-      github: "#",
-      demo: "#"
+      github: "https://github.com/ezana3456/weatherDasboard",
+      demo: "https://weatherdasboard.onrender.com"
     }
   ];
 
@@ -133,7 +134,7 @@ const Projects = () => {
           transition={{ delay: 0.3 }}
         >
           <a 
-            href="#" 
+            href="/ezana3456/projects" 
             className="inline-flex items-center gap-2 bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg font-medium transition-colors duration-300 shadow-lg hover:shadow-xl"
           >
             View All Projects <FaExternalLinkAlt />

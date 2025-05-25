@@ -1,24 +1,18 @@
-import React from 'react'
-import NavBar from './component/navBar.jsx'
-import Hero from './component/Hero.jsx'
-import Projects from './component/Projects.jsx'
-import Skills from './component/Skills.jsx'
-import BackToTop from './component/BackToTop.jsx'
-import Contact from './component/Contact.jsx'
-import About from './component/About.jsx'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/MainPage'
+import AllProjects from './component/AllProjects.jsx';
+import AdminDashboard from './pages/Admin.jsx';
 
-const App = () => {
+function App() {
   return (
-  <>
-    <NavBar/>
-    <Hero/>
-    <Projects/>
-    <Skills/>
-    <About/>
-    <Contact/>
-    <BackToTop/>
-  </>
- )
+    <Router>
+      <Routes>
+        <Route path="/ezana3456" element={<Home />} />
+        <Route path="/ezana3456/projects" element={<AllProjects />} />
+        <Route path="/ezana3456/admin" element={<AdminDashboard />}/>
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;

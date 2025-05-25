@@ -1,4 +1,5 @@
 import { FaDownload, FaMapMarkerAlt, FaEnvelope, FaPhone, FaUserTie } from 'react-icons/fa';
+import photo from '../assets/photo2.jpg'
 
 const About = () => {
   const personalInfo = [
@@ -30,7 +31,7 @@ const About = () => {
           <div className="lg:w-1/3 flex justify-center">
             <div className="relative w-72 h-72 lg:w-80 lg:h-80 rounded-xl overflow-hidden shadow-2xl group">
               <img 
-                src="https://i.ibb.co/JjXdb0xB/1000-F-214746128-31-Jkea-P6r-U0-Nzzzd-FC4kh-Gkmqc8noe6h.jpg" 
+                src={photo}
                 alt="Ezedin Gulte" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
